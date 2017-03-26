@@ -22,7 +22,3 @@ From my investigation, I learned that there is a minimal correlation between how
 ![correlation](https://github.com/lizkalina/smart-cities/blob/master/plots/correlation.jpg)
 
 <img src="https://github.com/lizkalina/smart-cities/blob/master/plots/tree_count.jpg" width="425"/> <img src="https://github.com/lizkalina/smart-cities/blob/master/plots/streetscore.jpg" width="425"/> 
-
-
-> “Streets and their sidewalks-the main public places of a city-are its most vital organs.”
-> <br> ― Jane Jacobs, The Death and Life of Great American Cities
