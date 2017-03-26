@@ -17,8 +17,10 @@ Is there a correlation between tree count and perceived safety in NYC neighborho
 
 ## Discoveries
 
-From my investigation, I learned that there is a minimal correlation between how safe someone feels and number of trees. I originally aggregated tree count and safety metrics at the block level, but soon realized that introduced too much noise into the data. Instead, I chose to approach my analysis from the zip code level which smoothed out the noise 
+From my investigation, I learned that there is a minimal correlation between feeling safe and number of trees. I first aggregated by city block, but after realizing this introduced too much noise, I began working at the zip code level which had much more of a signal. What I observed is some sections of the city (such as Brooklyn and Queens) have a stronger correlation between trees and safety. As next steps, I would like to incorporate additional datasets — perhaps population, crime statistics and housing stock information — to see if they are better indicators.
 
 ![correlation](https://github.com/lizkalina/smart-cities/blob/master/plots/correlation.jpg)
+
+There were clear outliers in the dataset particularly for tree count by block. In order to get a more accurate picture of the relationship between tree count and perceived satety, I removed data points more than 3 standard deviations from the mean for each metric.
 
 <img src="https://github.com/lizkalina/smart-cities/blob/master/plots/tree_count.jpg" width="425"/> <img src="https://github.com/lizkalina/smart-cities/blob/master/plots/streetscore.jpg" width="425"/> 
