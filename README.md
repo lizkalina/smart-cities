@@ -1,6 +1,5 @@
 
-# Contribution to [Smart Cities Hack](http://www.wimldsdatadive.com/hackathons/2)
-## Hosted by Women in Machine Learning & Data Science
+# Contribution to [Smart Cities Hack](http://www.wimldsdatadive.com/hackathons/2) - Hosted by Women in Machine Learning & Data Science
 
 ## Question 
 Is there a correlation between tree count and perceived safety in NYC neighborhoods? Can this be modeled for various blocks and zip codes?  
