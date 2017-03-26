@@ -1,0 +1,4 @@
+choroplethNYC/
+data/
+.ipynb_checkpoints/
+*.ipynb
